@@ -19,10 +19,10 @@
 
     </form>
     <p></p>
-        <ul style="text-align: center">
+        <ul style="text-align: center" class="list-group">
             Lista de Disputas:
             {% for disputa in disputas %}
-                <li> {{ disputa }} - {{disputa.gols01}}x{{disputa.gols02}}</li>
+                <li class="list-group-item"> {{ disputa }} - {{disputa.gols01}}x{{disputa.gols02}}</li>
             {% endfor %}
         </ul>
         <p></p>

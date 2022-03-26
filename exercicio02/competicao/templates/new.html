@@ -18,10 +18,10 @@
 
     </form>
     <p></p>
-    <ul style="text-align: center">
+    <ul style="text-align: center" class="list-group">
         Lista de Times:
         {% for time in times %}
-            <li> {{ time.nome }}</li>
+            <li class="list-group-item"> {{ time.nome }}</li>
         {% endfor %}
     </ul>
     <p></p>

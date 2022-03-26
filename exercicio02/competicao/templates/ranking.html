@@ -7,13 +7,12 @@
 </head>
 <body style="text-align: center">
 
-    <h1 align="center">Resultado</h1>
-
-    <ul>
+    <h1>Resultado</h1>
+    <ol class="w-25 mx-auto">
         {% for item in resultado %}
             <li>{{ item.0 }} = {{ item.1 }} Gols</li>
         {% endfor %}
-    </ul>
+    </ol>
 
 
     <a href="{% url 'create_time' %}">Adicionar Time</a>
