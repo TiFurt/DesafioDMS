@@ -1,0 +1,5 @@
+venv/
+.idea/
+exercicio01/app2.py
+exercicio01/conversor2.py
+__pycache__/
